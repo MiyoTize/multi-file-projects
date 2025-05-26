@@ -1,8 +1,7 @@
 #include <iostream>
-#include "Text.h"
+#include <cmath>
 
 int BasedMath(double x, double y, int z) { // z is out
-  Text(int answer);
   std::cout << "Please, write x and y:\n";
   std::cin >> x >> y;
 
