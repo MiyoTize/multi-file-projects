@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Text.h"
 #include "BasedMath.h"
-#include "ArithmeticProgression"
+#include "ArithmeticProgression.h"
 
 int main() {
   int z;
