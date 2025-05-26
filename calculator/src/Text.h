@@ -1,7 +1,6 @@
 #include <iostream>
 
-int Text() {
-  int answer;
+int Text(int answer) {
   std::cout << "Heyo! Here Miyo!\n"
             << "Please, write what you want:\n"
             << "1. Based Math ( + - * / ^ sqrt pow log round % ! )\n"

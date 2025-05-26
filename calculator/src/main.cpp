@@ -1,16 +1,18 @@
 #include <iostream>
-#include "Fun.h"
 #include "Text.h"
+#include "BasedMath.h"
 
 int main() {
   int z;
-  Text();
+  Text(int answer);
   std::cout << "Start?\n(Y/n): ";
   std::cin >> z;
   while (z == 'y') {
-    Fun();
+    if (answer = 1) {
+			BasedMath(double x, double y);
+    }
     std::cout << "Do you want solve something again?\n(Y/n): ";
     std::cin >> z;
-  }
+	}
   return 0;
 }
