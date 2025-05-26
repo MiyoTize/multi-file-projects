@@ -3,14 +3,14 @@
 #include "Text.h"
 
 int main() {
-	int z;
+  int z;
   Text();
   std::cout << "Start?\n(Y/n): ";
-	std::cin >> z;
-	while (z == 'y') {
+  std::cin >> z;
+  while (z == 'y') {
     Fun();
     std::cout << "Do you want solve something again?\n(Y/n): ";
-		std::cin >> z;
+  std::cin >> z;
   }
-	return 0;
+  return 0;
 }
