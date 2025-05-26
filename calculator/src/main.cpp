@@ -10,7 +10,7 @@ int main() {
   while (z == 'y') {
     Fun();
     std::cout << "Do you want solve something again?\n(Y/n): ";
-  std::cin >> z;
+    std::cin >> z;
   }
   return 0;
 }
