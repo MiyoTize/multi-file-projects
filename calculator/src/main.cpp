@@ -2,6 +2,7 @@
 #include "Text.h"
 #include "BasedMath.h"
 #include "ArithmeticProgression.h"
+#include <Equations.h>
 
 int main() {
   int z;
@@ -15,7 +16,9 @@ int main() {
         return 0;
       case 2:
         ArithmeticProgression(double a, double b, double s, double result, int n);
-        return 0;
+      case 3:
+        Equations(double x1, double x2, double a, double b, double c, double D);
+      return 0;
     }
     std::cout << "Do you want solve something again?\n(Y/n): ";
     std::cin >> z;
