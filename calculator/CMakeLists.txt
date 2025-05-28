@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 4.02)
-project(bank-system)
+project(calculator)
 
 set(CMAKE_CXX_STANDARD 14)
 
