@@ -5,7 +5,7 @@ what i have now:
 3. BasedMath
 4. ArithmeticProgression ( geometryc later )
 5. Equations ( can be improve )
-what i want add?
+* what i want add?
 1. matrix and vectors
 2. geometry
 3. graphics
