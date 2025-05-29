@@ -3,13 +3,15 @@
 
 #include <iostream>
 
-int TodoListArray(char* array[i]) {
+void TodoListArray(char* array[]) {
   int i, choice;
-  int x =0;
+  int x = 0;
+	char* task;
+	char answerarr;
   if(i == 0) {
     std::cout << "Oops! You no have tasks!\n";
   } else {
-    x = 0;
+    x = 1;
     while( x <= i ) {
       std::cout << x << ". " << array[i-x];
       ++x;
@@ -18,17 +20,19 @@ int TodoListArray(char* array[i]) {
   while(answerarr == 'y') {
     std::cout << "What do you want?\n"
               << "1. add task\n"
-	      << "2. delete task yaaay\n";
+	            << "2. delete task yaaay\n";
     std::cin >> choice;
     if(choice == 1) { 
       std::cout << "Write task\nHere: ";
-      std::cin >> array[++i];
       ++i;
+      std::cin >> task;
+			array[i] = task;
     } else {
       std::cout << "Write number of task\nHere: ";
-      std::cin >> x;
-      array[x] = 0;
-    }
+      std::cin >> i;
+      array[i] = 0;
+      }
   }
+	std::cout << "Bye!";
 }
-    
+   
