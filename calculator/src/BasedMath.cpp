@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-int BasedMath(double x, double y, int z) { // z is out
+void BasedMath(double x, double y, int z) { // z is out
   std::cout << "Please, write x and y:\n";
   std::cin >> x >> y;
 

@@ -1,6 +1,6 @@
 #include <iostream>
 
-int ArithmeticProgression(double a, double b, double s, double result, int n) {
+void ArithmeticProgression(double a, double b, double s, double result, int n) {
   int choice;
   std::cout << "Your choice:"
 /*@,0*/     << "Arithmetic Progression"

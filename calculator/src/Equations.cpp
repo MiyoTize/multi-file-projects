@@ -95,5 +95,4 @@ int main() {
   } else {
     std::cout << "\nFuckimg fail!\n";
   }
-  return 0;
 }
