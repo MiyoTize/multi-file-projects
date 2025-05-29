@@ -13,12 +13,10 @@ int main() {
     switch(answer) {
       case 1:
         BasedMath(double x, double y);
-        return 0;
       case 2:
         ArithmeticProgression(double a, double b, double s, double result, int n);
       case 3:
         Equations(double x1, double x2, double a, double b, double c, double D);
-      return 0;
     }
     std::cout << "Do you want solve something again?\n(Y/n): ";
     std::cin >> z;
