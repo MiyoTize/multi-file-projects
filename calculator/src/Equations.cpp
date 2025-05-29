@@ -80,7 +80,7 @@ void opersecond() {
   }
 } 
 
-int main() {
+void Equations(double x1, double x2, double a, double b, double c, double D) {
   std::cout << "You in equationsolver\n"
             << "Please, write what you want solve:\n"
             << "1. Ax + B = 0\n"
