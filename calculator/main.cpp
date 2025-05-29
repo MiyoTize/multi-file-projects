@@ -2,7 +2,7 @@
 #include "Text.h"
 #include "BasedMath.h"
 #include "ArithmeticProgression.h"
-#include <Equations.h>
+#include "Equations.h"
 
 int main() {
   int z;
