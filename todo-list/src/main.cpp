@@ -3,10 +3,10 @@
 #include "TodoListArray.h"
 
 int main() {
-int Text(answer)
+	int Text(answer);
   while (answer == 'y') {
-    int TodoListArray(array[x])
+		int TodoListArray(array[x]);
     std::cout << "Do you want start again?\n(Y/n): ";
-    std::cin >> answer;
-  }
+		std::cin >> answer;
+	}
 }
