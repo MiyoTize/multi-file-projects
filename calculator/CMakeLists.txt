@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 4.02)
+cmake_minimum_required(VERSION 3.14)
 project(calculator)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(BasedMath)
 add_subdirectory(ArithmeticProgression)
