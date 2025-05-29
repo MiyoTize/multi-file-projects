@@ -3,4 +3,4 @@
 
 void first(double a, double b, double x);
 
-#endif // !	EQUATIONS_H
+#endif // ! EQUATIONS_H

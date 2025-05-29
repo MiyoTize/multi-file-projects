@@ -3,4 +3,4 @@
 
 void BasedMath(double x, double y);
 
-#endif // !	BASEDMATH_H
+#endif // ! BASEDMATH_H

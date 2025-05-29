@@ -3,4 +3,4 @@
 
 void Text(int answer);
 
-#endif // !	TEXT_H
+#endif // ! TEXT_H
