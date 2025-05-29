@@ -1,1 +1,5 @@
-beep
+add_library(BasedMath_src BasedMath.cpp)
+add_library(BasedMath_src BasedMath.cpp)
+add_library(BasedMath_src BasedMath.cpp)
+add_library(BasedMath_src BasedMath.cpp)
+target_include_directories(BasedMath_rc PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
