@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 4.02)
-project(calculator)
+project(todo-list)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(TodoListArray)
-add_subdirectory(Text)
