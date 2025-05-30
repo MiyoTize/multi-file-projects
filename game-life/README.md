@@ -12,4 +12,4 @@ It is a zero-player game, meaning that its evolution is determined by its initia
 5. the speed of generation change and the ability to change them with clicks
 6. random cell display generator at the start of the game / custom positions by user
 7. loading fiends from system files ( i think the best idea is bool massive )
-**Have fun!**
+* **Have fun!** (Kislyy MiyoTize 0_.)
