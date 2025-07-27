@@ -1,0 +1,8 @@
+add_library(BasedMath_src BasedMath.cpp)
+add_library(ArithmeticProgression_src ArithmeticProgression.cpp)
+add_library(Equations_src Equations.cpp)
+add_library(Text_src Text.cpp)
+target_include_directories(BasedMath_rc PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(ArithmeticProgression_rc PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(Equations_rc PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(Text_rc PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
