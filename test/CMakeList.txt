@@ -1,2 +1,0 @@
-add_library(Sum_src Sum.cpp)
-target_include_directories(Sum_rc PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
